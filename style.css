@@ -166,5 +166,70 @@ margin-left: 15px;
     background-color: var(--primary);
     margin: 20px 0px;
     color: white;
-    
 }
+.latest{
+    padding: 50px 100px;
+}
+.product{
+    text-align: center;
+}
+.product h1{
+    color: var(--primary);
+    letter-spacing: 0.2rem;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.product h1 span{
+    color: var(--secondary);
+}
+.product h1 p{
+    color: grey;
+    margin: 15px 0;
+}
+.hero{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    cursor: pointer;
+    margin: 4rem 0;
+}
+.hero .card{
+    flex-basis:20%;
+    padding: 0.8rem;
+    position: relative;
+}
+.card img{
+    width: 100%;
+    transition: 0.5sn ease-in-out;
+}
+.card i{
+    color: goldenrod;
+    margin: 10px 0;
+
+}
+.card button{
+    color: white;
+    background-color: var(--secondary);
+    margin-top: 15px;
+    padding: 5px 20px;
+}
+.card:hover img,.card:hover h1{
+    width: 80%;
+    color: var(--primary);
+
+}
+.card::before{
+    content: '20% off';
+    width: 25%;
+    height: 25px;
+    line-height: 25px;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--primary);
+    padding: 0px 4px;
+    transform: rotate(-20deg);
+}
+
