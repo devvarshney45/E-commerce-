@@ -232,4 +232,30 @@ margin-left: 15px;
     padding: 0px 4px;
     transform: rotate(-20deg);
 }
+footer{
+    background-color: var(--secondary);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+footer div{
+    flex-basis: 30%;
+}
+footer h1{
+    letter-spacing: 0.5rem;
+}
+footer h1 span{
+    color: var(--primary);
+}
+footer p{
+    font-size: 1rem;
+}
+footer i{
+    margin: 0px 5px;
+
+}
 
