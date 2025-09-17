@@ -138,3 +138,33 @@ margin-left: 15px;
 .nav3 ul li:hover>ul{
     display: block;
 }
+.glow{
+    width: 100%;
+    height: 60vh;
+    background:linear-gradient(to right,rgba(0,0,0,1) 20%,rgba(255,255,255,0.2)),
+     url(g1.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+.glowtext{
+    max-width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 2rem;
+    letter-spacing: 5px;
+    font-family: "Akaya Kanadaka", cursive;
+}
+.glowtext button{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background-color: var(--primary);
+    margin: 20px 0px;
+    color: white;
+    
+}
