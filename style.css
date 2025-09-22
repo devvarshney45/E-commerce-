@@ -663,8 +663,9 @@ header {
 }
 
 .nav3 {
-  margin-top: 0 !important;  /* nav aur hero image ka gap fix */
+  margin-top: -10px !important;  /* nav aur hero image ka gap fix */
 }
+
 
 
 
