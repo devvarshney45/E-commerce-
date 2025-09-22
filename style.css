@@ -657,6 +657,15 @@ footer i:hover {
   margin: 6px auto 0;
   border-radius: 2px;
 }
+/*  High priority overrides */
+header {
+  height: auto !important;   /* header ki fixed height hata di */
+}
+
+.nav3 {
+  margin-top: 0 !important;  /* nav aur hero image ka gap fix */
+}
+
 
 
 
